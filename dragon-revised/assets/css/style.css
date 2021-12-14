@@ -148,13 +148,15 @@ section#content h2{
  
   font-size: 1.8em;
   color: #000;
-  text-align:center;
+  text-align:center;  
+  border-bottom:6px solid #0D1C73; 
+  
 }
 
 /* ------------- Articles --------------- */
 
 section#articles { 
-   background-image:url("../img/aside-bb.gif"); 
+   background-image:url("../img/articless.gif"); 
  
 }
 
@@ -234,7 +236,6 @@ border-bottom:6px solid #0D1C73;
   padding:5px 10px; 
     color:#000;
 }
-/* ------------- slideshow --------------- */
 
 
 
@@ -329,37 +330,68 @@ text-align:center;
   color:#0f2e45; 
   padding:10px;
   font-weight:bold; 
-  font-size:1.4rem;
+  font-size:1.4rem; 
+  
 } 
 .center tr:nth-child(even){
   background-color:#6495ED; 
 }  
 .center tr:hover{
   background-color:#fcf808;
+}  
+.center td{ 
+    border:3px solid #0D1C73;
+    padding:5px;
 } 
+.center th{ 
+    background-color: #0D1C73;
+    color:#fff; 
+    
+    padding:10px;
+}
 
 
 
-/*ss*/
+/*slideshow-Index*/
 .ss {
-	background-color: #CCC;
-	width: 730px;
-	margin-top: 40px;
+
+
+
 	margin-right: auto;
 	margin-left: auto; 
 
-	border: 1px solid #999;
-	height: 516px;
+
+
 	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
-	border-radius: 4px;
+
 }
 .ss img {
-	margin: 15px; 
+
+		padding-bottom:2rem;  
+		
 		
 }
+ 
+ /*slideshow2-History*/
+ .ss2 {
 
 
 
+	margin-right: auto;
+	margin-left: auto; 
+
+
+
+	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
+
+}
+.ss2 img {
+
+		padding-bottom:2rem;  
+		
+		
+}
+ 
 
 /* ---------------Media Queries----------------- */
 
@@ -401,4 +433,6 @@ text-align:center;
   width: 100%;
 }
   
-}
+} 
+
+

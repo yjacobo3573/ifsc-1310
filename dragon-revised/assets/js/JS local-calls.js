@@ -7,4 +7,13 @@ $('.ss').cycle({
    
 	});
 	
-}); 
+
+$('.ss2').cycle({ 
+		fx: 'shuffle', // choose your transition type, ex: fade, scrollUp, shuffle, etc... 
+	 sync:   0,
+    delay: -2000 
+   
+	});
+	
+});  
+
